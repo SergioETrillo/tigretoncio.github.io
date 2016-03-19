@@ -15,9 +15,10 @@ port:           8080
 
 # Owner/author information
 owner:
-name:           Omar Alvarez
-avatar:         omajul.jpg
-email:          omajul@gmail.com
+  name:           Omar Alvarez
+  avatar:         omajul85.jpg
+  email:          omajul@gmail.com
+  description:    This is just a short description about myself
 
 # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
 description:    Description here ;)
@@ -114,10 +115,8 @@ prose:
               value: personal
             - name: "Engineering"
               value: engineering
-            - name: "Physics"
-              value: physics
-            - name: "Psychology"
-              value: psychology
+            - name: "Music"
+              value: music
             - name: "Interesting"
               value: interesting
             - name: "Web-Development"
