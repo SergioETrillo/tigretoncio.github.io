@@ -29,10 +29,10 @@ My name is **Omar Alvarez**, and this is my personal blog. It currently has {{ s
 
 I am a Ronin student at <a href="http://www.makersacademy.com/" target="_blank">Makers Academy</a>. Originally from Colombia, I have lived in France for the last 5 years. I studied a M.Sc. in Systems engineering specialised in Image and Sound at the University of Valenciennes. I completed an internship at Technicolor working in a R&D department dedicated to digital watermarking. The project I worked on was **Video Watermarking for HTTP Adaptive Streaming**.For more information on this topic, here is the <a href="https://www.dropbox.com/s/j1hvfdd4ldbgwju/icassp2014.pdf" target="_blank">link</a> to our paper.
 
-After that intense experience, I wanted to try something new, so I decided to move to Paris and work in the broadcasting industry. I have worked as a support engineer at <a href="http://www.dalet.com/" target="_blank">Dalet</a> for the last 2 years. This worked gave me the opportunity of working for TV and Radio channels from all around the world.
+After that intense experience, I wanted to try something new, so I decided to move to Paris and work in the broadcasting industry. I have worked as a support engineer at <a href="http://www.dalet.com/" target="_blank">Dalet</a> for the last 2 years. This work gave me the opportunity of working for TV and Radio channels from all around the world.
 
 > Now, my desire is to go back to the development field. This time I want to go deeper into web. That is why I applied to Makers. 
 
-When I am not programming, I like to play music and discover new instruments (the photo above is my last purchase). Also I love cooking and experimenting with exotic flavours.
+When I am not programming, I like to play music and discover new instruments (the photo above is my latest purchase). Also I love cooking and experimenting with exotic flavours.
 
 I hope this blog gives you an insight into the life of someone that aspires to work as a developer. I will try to keep you updated on my progress during my adventure as Roniner at Makers. 
