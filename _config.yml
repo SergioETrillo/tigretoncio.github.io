@@ -17,14 +17,13 @@ port:           8080
 owner:
   name:           Omar Alvarez
   avatar:         author.jpg
-  email:          omajul@gmail.com
-  description:    This is just a short description about myself
+  description:    Short description about myself
 
 # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-description:    Description here ;)
+description:    Refactoring my life
 
 # Social networking links used in footer. Update and remove as you like.
-facebook:       omajul85
+facebook:       omajul
 github:         omajul85    
 
 # Links to include in footer navigation
