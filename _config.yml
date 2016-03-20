@@ -16,7 +16,7 @@ port:           8080
 # Owner/author information
 owner:
   name:           Omar Alvarez
-  avatar:         omajul85.jpg
+  avatar:         author.jpg
   email:          omajul@gmail.com
   description:    This is just a short description about myself
 
@@ -44,7 +44,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Paris
 future:      true
-highlighter: pygments
+highlighter: rouge
 markdown:    kramdown
 paginate:    5
 paginate_path: "page:num"
@@ -69,7 +69,7 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://omajul85.github.io/Notepad/'
+  siteurl: 'http://omajul85.github.io/'
   relativeLinks: 'http://omajul85.github.io/Notepad/links.jsonp'
   media: 'images'
   metadata:
@@ -109,7 +109,7 @@ prose:
           element: "multiselect"
           label: "Add categories"
           placeholder: "Choose categories"
-          value: personal
+          value: web_development
           options:
             - name: "Personal"
               value: personal
@@ -120,7 +120,7 @@ prose:
             - name: "Interesting"
               value: interesting
             - name: "Web-Development"
-              value: webdevelopment
+              value: web_development
           alterable: true
       - name: "tags"
         field:

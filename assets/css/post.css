@@ -323,8 +323,8 @@ html, body, .notepad-post-container, .notepad-post-header {
   background: #f2f2f2; }
   @media only screen and (min-width: 40.063em) {
     .notepad-author-info {
-      padding-top: 5rem;
-      padding-bottom: 5rem; } }
+      padding-top: 2rem;
+      padding-bottom: 2rem; } }
   @media only screen and (min-width: 70em) {
     .notepad-author-info {
       padding-top: 6.875rem;
@@ -355,8 +355,6 @@ html, body, .notepad-post-container, .notepad-post-header {
       .notepad-author-info .notepad-post-author > p a {
         color: #e51843; }
     .notepad-author-info .notepad-post-author .notepad-post-author-avatar {
-      width: 12.5rem;
-      height: 12.5rem;
       border-radius: 10%;
       float: none;
       margin-right: 0;
