@@ -33,7 +33,7 @@ We start by creating a hash called `head` in this example:
 head = {:data => 1, :next => nil}
 {% endhighlight %}
 
-This line will create a linked list that so far only contains one none. So, that node is both the head and tail.
+This line will create a linked list that so far only contains one node. So, that node is both the head and tail.
 
 ![LL1]({{ site.url }}/images/web_development/LL1.png)
 
@@ -79,4 +79,4 @@ def countNodes(list, count = 1)
 end
 {% endhighlight %}
 
-This method accepts two parameters, a list (hash) and a variable that is used to count the number of nodes that is initialised to 1. If you are already in the tail of the list, `list[:next]` will be `nil` and you can return the number of nodes `count`. Notice that if you pass a list with only one node, the method will return 1, that is, the value by default. Otherwise, you call again the countNodes method passing as arguments the next node of the list and incrementing the count in 1.
+This method accepts two parameters, a list (hash) and a variable that is used to count the number of nodes that is initialised to 1. If you are already in the tail of the list, `list[:next]` will be `nil` and you can return the number of nodes `count`. Notice that if you pass a list with only one node, the method will return 1, that is, the value by default. Otherwise, you call **recursively** the countNodes method passing as arguments the next node of the list and incrementing the count in 1. So, each time you call the method, the count will increment in one unit until arriving to the tail. At that moment, the method returns the result.
