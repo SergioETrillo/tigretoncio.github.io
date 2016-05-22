@@ -73,5 +73,3 @@ $ git checkout <filename>
 {% highlight shell %}
 $ git checkout <SHA> -- <filename>
 {% endhighlight %}
-
-*This list is not completed yet...*

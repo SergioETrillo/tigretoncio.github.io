@@ -17,7 +17,7 @@ port:           8080
 owner:
   name:           Omar Alvarez
   avatar:         author.jpg
-  description:    Short description about myself
+  description:    Makers Academy student looking for new opportunities as Software Engineer/Web developer in the UK. Prior experience in the Broadcasting industry and image processing.
 
 # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
 description:    Refactoring my life

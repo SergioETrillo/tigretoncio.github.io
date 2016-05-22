@@ -6,6 +6,7 @@ modified: 2016-03-26
 category: web_development
 imagefeature:
 comments: true
+featured: true
 ---
 The last three challenges of the session 3 of the <a href="https://github.com/makersacademy/ruby-kickstart/tree/master/session3/3-challenge" target="_blank">ruby-kickstart</a> use some nested hashes to create what is called a linked list. 
 

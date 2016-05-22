@@ -12,11 +12,14 @@ The challenge of the second week of course was related to OOP in Ruby and the us
 
 The goals of this exercise were:
 
-  - Understand the importance of using a Gemfile to list the gems used in our application. By doing so, all the project dependencies can be pulled in whenever the project is checked out on a new machine.
-  - Stubbing the Twilio API. This API provides access to an online service. If we do not stub this, we will send test SMS everytime we run our test, which is not a good thing.
-  - Test explicitely **every** element of the public interface.
-  - Improve the way we desing our application. This implies an appropriate use of Dependency Injection in order to respect the Single Responsability Principle. We do not want classes that do too much things. In addition, this was a good opportunity to refactor efficiently.
-  - Use the dotenv gem to ensure that sensitive infomration such as phone numbers and security tokens are not pushed up to public repos on Github. 
-  - Improve our style and indentation by using tools to analyze our code for violations.
+  * Understand the importance of using a Gemfile to list the gems used in our application. By doing so, all the project dependencies can be pulled in whenever the project is checked out on a new machine.
 
-To be continued...
+  * Stubbing the Twilio API. This API provides access to an online service. If we do not stub this, we will send test SMS everytime we run our test, which is not a good thing.
+  
+  * Test explicitely **every** element of the public interface.
+  
+  * Improve the way we desing our application. This implies an appropriate use of Dependency Injection in order to respect the Single Responsability Principle. We do not want classes that do too much things. In addition, this was a good opportunity to refactor efficiently.
+  
+  * Use the dotenv gem to ensure that sensitive infomration such as phone numbers and security tokens are not pushed up to public repos on Github. 
+  
+  * Improve our style and indentation by using tools to analyze our code for violations.
