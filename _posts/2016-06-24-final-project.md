@@ -4,15 +4,15 @@ title: "Week 10 - Final Project"
 description: Comments about the final project.
 modified: 2016-06-24
 category: personal
-imagefeature: final.jpg
+imagefeature: final.png
 comments: true
 ---
 
 A new programming language was introduced in the fifth week of the course. We started learning JavaScript, a language used by 92% of sites on the web. Together with JavaScript, the course introduced Jasmine as the testing framework and jQuery, a library designed to simplify the client-side scripting of HTML.
 
-> The weekend challenge was count and sum the scores of a bowling game for one player in JavaScript, test the features with Jasmine and use jQuery to create a nice interactive animated interface.
+> Talk about Phaser, JavaScript, design, Waffle, Dev cycle.
 
-You can see my work on this GitHub <a href="https://github.com/omajul85/bowling-challenge" target="_blank">repo</a>. The application has been deployed on Heroku. You can share your peeps with the world <a href="https://bowling-omajul85.herokuapp.com/" target="_blank">here</a>.
+You can see our work on this GitHub <a href="https://github.com/festinalent3/final-project-makers" target="_blank">repo</a>. The application has been deployed on Heroku. You can play <a href="https://makers-invaders.herokuapp.com/" target="_blank">here</a>.
 
 These are the **skills** that I acquired after this week:
 
