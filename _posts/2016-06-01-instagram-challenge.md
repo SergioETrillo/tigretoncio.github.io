@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Week 5 - Bowling challenge"
-description: Comments about the fifth weekend challenge of Makers Academy.
-modified: 2016-05-17
+title: "Week 7 - Instagram challenge"
+description: Comments about the seventh weekend challenge of Makers Academy.
+modified: 2016-06-06
 category: personal
 imagefeature: bowling.jpg
 comments: true

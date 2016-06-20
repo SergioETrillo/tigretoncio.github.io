@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Week 5 - Bowling challenge"
-description: Comments about the fifth weekend challenge of Makers Academy.
-modified: 2016-05-17
+title: "Week 10 - Final Project"
+description: Comments about the final project.
+modified: 2016-06-24
 category: personal
-imagefeature: bowling.jpg
+imagefeature: final.jpg
 comments: true
 ---
 

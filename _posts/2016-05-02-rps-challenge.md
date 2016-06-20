@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Week 3 - Rock-Paper-Scissors challenge"
-description: Comments about the third weekend challenge on my Ronin adventure
+description: Comments about the third weekend challenge of Makers Academy.
 modified: 2016-05-02
 category: personal
 imagefeature: rps.jpg

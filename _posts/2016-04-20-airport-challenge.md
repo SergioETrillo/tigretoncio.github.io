@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Week 1 - Airport challenge"
-description: Comments about the first weekend challenge on my Ronin adventure
+description: Comments about the first weekend challenge of Makers Academy.
 modified: 2016-04-20
 category: personal
 imagefeature: airport-challenge.jpg

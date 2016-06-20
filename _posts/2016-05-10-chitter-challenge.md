@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Week 4 - Chitter challenge"
-description: Comments about the fourth weekend challenge on my Ronin adventure
+description: Comments about the fourth weekend challenge of Makers Academy.
 modified: 2016-05-10
 category: personal
 imagefeature: chitter.jpg
