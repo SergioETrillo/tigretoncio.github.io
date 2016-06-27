@@ -3,7 +3,7 @@ layout: post
 title: "Week 1 - Airport challenge"
 description: Comments about the first weekend challenge of Makers Academy.
 modified: 2016-04-20
-category: personal
+category: portfolio
 imagefeature: airport-challenge.jpg
 comments: true
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Week 7 - Instagram challenge"
 description: Comments about the seventh weekend challenge of Makers Academy.
 modified: 2016-06-06
-category: personal
+category: portfolio
 imagefeature: camera.jpg
 comments: true
 ---

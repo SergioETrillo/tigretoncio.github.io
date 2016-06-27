@@ -69,7 +69,6 @@ kramdown:
 prose:
   rooturl: '_posts'
   siteurl: 'http://omajul85.github.io/'
-  # relativeLinks: 'http://omajul85.github.io/Notepad/links.jsonp'
   media: 'images'
   metadata:
     _posts:
@@ -110,8 +109,8 @@ prose:
           placeholder: "Choose categories"
           value: web_development
           options:
-            - name: "Personal"
-              value: personal
+            - name: "Portfolio"
+              value: portfolio
             - name: "Engineering"
               value: engineering
             - name: "Music"

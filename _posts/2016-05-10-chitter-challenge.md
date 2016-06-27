@@ -3,7 +3,7 @@ layout: post
 title: "Week 4 - Chitter challenge"
 description: Comments about the fourth weekend challenge of Makers Academy.
 modified: 2016-05-10
-category: personal
+category: portfolio
 imagefeature: chitter.jpg
 comments: true
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Week 2 - Takeaway challenge"
 description: Introducing the Twilio API
 modified: 2016-04-25
-category: personal
+category: portfolio
 imagefeature: takeaway.jpg
 comments: true
 ---

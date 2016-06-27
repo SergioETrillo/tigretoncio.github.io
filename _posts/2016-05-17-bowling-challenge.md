@@ -3,7 +3,7 @@ layout: post
 title: "Week 5 - Bowling challenge"
 description: Comments about the fifth weekend challenge of Makers Academy.
 modified: 2016-05-17
-category: personal
+category: portfolio
 imagefeature: bowling.jpg
 comments: true
 ---

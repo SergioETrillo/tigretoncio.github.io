@@ -3,7 +3,7 @@ layout: post
 title: "Week 8 - Makerthon"
 description: Comments about the Makerthon (group project in 4 days).
 modified: 2016-06-06
-category: personal
+category: portfolio
 imagefeature: summer.jpg
 comments: true
 ---

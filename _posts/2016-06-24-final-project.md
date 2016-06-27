@@ -3,7 +3,7 @@ layout: post
 title: "Week 10 - Final Project"
 description: Comments about the final project.
 modified: 2016-06-24
-category: personal
+category: portfolio
 imagefeature: final.png
 comments: true
 ---
