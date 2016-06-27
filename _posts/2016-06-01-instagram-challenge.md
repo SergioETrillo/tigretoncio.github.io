@@ -22,11 +22,19 @@ The goals of this exercise were:
 
   * Use correctly the Gemfile and separate the gems into groups according to the purpose of them (test, development, production).
 
-  * Search the appropriate gems that help us solving the challenge. In this case, I used Cloudinary, which is an end-to-end image management solution for websites and mobile apps. My instagram clone uses Cloudinary for image uploads, storage and simple manipulations. Another gem used in this project is `acts_as_votable`which allows records (pictures) to be votable. Another important gem used for this project is **devise**, a flexible authentication solution for Rails.
+  * Search the appropriate gems that help us solving the challenge. In this case, I used **Cloudinary**, which is an end-to-end image management solution for websites and mobile apps. My instagram clone uses Cloudinary for image uploads, storage and simple manipulations. Another gem used in this project is **acts_as_votable** which allows records (pictures) to be votable. Another important gem used for this project is **devise**, a flexible authentication solution for Rails.
 
   * Experiment with styling frameworks. This app uses Bootstrap, a combination of HTML, CSS and JavaScript code designed to help build user interface components (Front-end-Framework).
 
-  * How to prevent sensible data, like API keys and passwords from being published on GitHub using environment variables both locally and on Heroku.
+  * How to prevent sensible data, like API keys and passwords from being published on GitHub using environment variables both locally and on Heroku. Ex:
+  ```ruby
+  production:
+  cloud_name: ENV["CLOUDINARY_CLOUD_NAME"]
+  api_key: ENV["CLOUDINARY_API_KEY"]
+  api_secret: ENV["CLOUDINARY_API_SECRET"]
+  enhance_image_tag: true
+  static_image_support: true
+  ```
 
   * Use Test-Driven Development as a development cycle (red-green-refactor). Implement feature and unit test in order to test the app and find regressions.
 
