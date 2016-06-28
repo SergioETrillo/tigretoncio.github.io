@@ -8,10 +8,15 @@ imagefeature: summer.jpg
 comments: true
 ---
 
-A new programming language was introduced in the fifth week of the course. We started learning JavaScript, a language used by 92% of sites on the web. Together with JavaScript, the course introduced Jasmine as the testing framework and jQuery, a library designed to simplify the client-side scripting of HTML.
+Week 8 was fully dedicated to Makerthon. Makerthon is a code marathon where a group of 4-5 student work on a project that is decided monday morning and must be presented the very same week on friday afternoon. The projects are taken from a list of ideas that were selected on a previous brainstorming session.
 
-> AngularJS.
+The project in which I participated was a holiday planner application extracted from the folowing idea:
 
+> Make an application that helps people to plan the activities for their next summer.
+
+With that idea in mind, there were no further details or indications for the language or framework we should use to code this app. The goal was to work as a team, organize our work for doing pair-programming, follow the agile methodology for the development cycle and apply the [XP-values as](http://www.extremeprogramming.org/values.html) much as we can.
+
+From the very beginning we decided to build an AngularJS application that interacts with external APIs in order to collect data that is organized and presented to the users. More concretely, the 
 You can see our work on this GitHub <a href="https://github.com/tigretoncio/I-know-what-you-will-do-this-summer" target="_blank">repo</a>. The application has been deployed on Heroku. You can find your next holiday destination <a href="http://holiday-planner.herokuapp.com/" target="_blank">here</a>.
 
 These are the **skills** that I acquired after this week:
