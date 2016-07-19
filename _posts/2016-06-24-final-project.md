@@ -8,7 +8,7 @@ imagefeature: final.png
 comments: true
 ---
 
-For the final project, I decided to participate in a game development project. The idea was to learn a new JavaScript framework for HTML5 called Phaser. Here you can see the <a href="http://slides.com/omaralvarez-1/deck-2#/10" target="_blank">slides</a> of the presentation we made for it.
+For the final project, I decided to participate in a game development project. The idea was to learn a new JavaScript framework for HTML5 called Phaser. Here you can see the [slides](http://slides.com/omaralvarez-1/deck-2/fullscreen) of the presentation we made for it.
 
 In order to apply some of the patterns and principles we learned during the course, we used ES6 in order to model the game using an OOP approach. To keep track of our progress and organize better the work for pair-programming, we used Waffle to create the issues for each one of the features of the game.
 
