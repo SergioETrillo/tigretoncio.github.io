@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /about/index.html
-title: Omar Alvarez
-tags: [Omar, Alvarez, omajul, omajul85, developer]
+title: Sergio Enrech Trillo
+tags: [Sergio, Enrech, Trillo, tigretoncio, developer]
 chart: true
 ---
 <figure>
-  <img src='/images/about/mi-acordeon.jpg'>
-  <figcaption>In Piedecuesta, Colombia</figcaption>
+  <img src='/images/about/tigretoncio.jpg' width="50%" height="50%" />
+  <figcaption>Fighting the tiger in Oslo</figcaption>
 </figure>
 
 {% assign total_words = 0 %}
@@ -25,14 +25,16 @@ chart: true
     {% endif %}
 {% endfor %}
 
-My name is **Omar Alvarez**, and this is my personal blog. It currently has {{ site.posts | size }} posts in {{ site.categories | size }} categories which combinedly have {{ total_words }} words, which will take an average reader ({{ site.wpm }} WPM) approximately <span class="time">{{ total_readtime }}</span> minutes to read. {% if featuredcount != 0 %}There are <a href="{{ site.url }}/featured">{{ featuredcount }} featured posts</a>, you should definitely check those out.{% endif %} The most recent post is {% for post in site.posts limit:1 %}{% if post.description %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}">"{{ post.title }}"</a>{% else %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}" title="Read more about {{ post.title }}">"{{ post.title }}"</a>{% endif %}{% endfor %} which was published on {% for post in site.posts limit:1 %}{% assign modifiedtime = post.modified | date: "%Y%m%d" %}{% assign posttime = post.date | date: "%Y%m%d" %}<time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time>{% if post.modified %}{% if modifiedtime != posttime %} and last modified on <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%d %b %Y" }}</time>{% endif %}{% endif %}{% endfor %}. The last commit was on {{ site.time | date: "%A, %d %b %Y" }} at {{ site.time | date: "%I:%M %p" }} [UTC](http://en.wikipedia.org/wiki/Coordinated_Universal_Time "Temps Universel Coordonné").
+Welcome to my blog.
 
-I have just graduated from Makers Academy Remote at <a href="http://www.makersacademy.com/" target="_blank">Makers Academy</a>, a web development bootcamp involving new languages and frameworks used on modern applications and also best practices on programming patterns, XP-values, pair-programming and teamwork. Originally from Colombia, I have lived in France for the last 5 years. I studied a M.Sc. in Systems engineering specialised in Image and Sound at the University of Valenciennes. I completed an internship at Technicolor working in a R&D department dedicated to digital watermarking. The project I worked on was **Video Watermarking for HTTP Adaptive Streaming**.For more information on this topic, here is the <a href="https://www.dropbox.com/s/j1hvfdd4ldbgwju/icassp2014.pdf" target="_blank">link</a> to our paper.
+I have just graduated from Makers Academy Remote at <a href="http://www.makersacademy.com/" target="_blank">Makers Academy</a>, the European leading bootcamp providing an intense 4 months practical training, simulating an agile corporation environment and applying agile techniques such as user stories, weekly retrospectives, XP values, pair programming or scrum teams, and learning by coding using languages such as Ruby or JavaScript.  It was very intense, working long hours to succeed on the challenges, and I loved it.
 
-After that intense experience, I wanted to try something new, so I decided to move to Paris and work in the broadcasting industry. I have worked as a support engineer at <a href="http://www.dalet.com/" target="_blank">Dalet</a> for the last 3 years. This work gave me the opportunity of working for TV and Radio channels from all around the world.
+Previously I have done a few other things, from working for multinationals to start ups, but I felt the call of code and there can't be any other way, I must develop as a way of life.
 
-> Now, my desire is to go back to the development field. This time I want to go deeper into software development. That is why I applied to Makers. 
+I am also very interested in the microsoft framework, and currently learning C# by myself, using the fantastic resources available at <a hreg="https://www.pluralsight.com/" target="_blank">Pluralsight</a>.  But I am also interested by Web technologies such as JavaScript, Angular and of course Ruby and Ruby on Rails!
 
-When I am not programming, I like to play music and discover new instruments (the photo above is my latest purchase). Also I love cooking and experimenting with exotic flavours.
+> My desire is to get a developer role where I can continuously learn and become a truly respected professional in the field.
 
-I hope this blog gives you an insight into the life of someone that aspires to work as a developer.
+
+Thank you for visiting! If you like to see a bit more of my work, please visit my <a href="https://github.com/tigretoncio" target="_blank">GitHub account</a> or <a href="mailto:senrech@gmail.com?Subject=Hi%20Sergio!" target="_top">
+send me a message</a>

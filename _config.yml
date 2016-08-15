@@ -1,12 +1,12 @@
-title:            Omar Alvarez blog
+title:            Sergio Enrech Trillo blog
 description:      "Here a description"
 logo:             logo.png
-disqus_shortname: omaralvarez
+disqus_shortname: sergio_et
 share:            true
 dropcap:			    true
 
 # Change url to your domain. Leave localhost server or blank when working locally.
-# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
+# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 
 url:        	  ""
@@ -15,16 +15,20 @@ port:           8080
 
 # Owner/author information
 owner:
-  name:           Omar Alvarez
+  name:           Sergio Enrech Trillo
   avatar:         author.jpg
-  description:    Makers Academy student looking for new opportunities as Software Engineer/Web developer in the UK. Prior experience in the Broadcasting industry and image processing.
+  description:    I recently received the call of code, and I have refocused my career to fulfill my passion.  Looking for exciting opportunities where I can continue to learn and grow as a developer.
 
 # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-description:    Refactoring my life
+description:    Available for Hire
 
 # Social networking links used in footer. Update and remove as you like.
-facebook:       omajul
-github:         omajul85    
+facebook:       sergio.et.5
+github:         tigretoncio
+linkedin:       sergio-enrech-trillo-95a5bb
+twitter:        tigretoncio
+mailto:         senrech@gmail.com
+codewars:       tigretoncio
 
 # Links to include in footer navigation
 # For external links add external: true
@@ -33,19 +37,19 @@ links:
     url: /
     external: false
     icon: home
-  - title: Featured Posts
-    url: /featured
+  # - title: Featured Posts
+  #   url: /featured
   - title: Categories
     url: /categories
   - title: About
     url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Paris
+timezone:    Europe/London
 future:      true
 highlighter: rouge
 markdown:    kramdown
-paginate:    5
+paginate:    10
 paginate_path: "page:num"
 gems: [jekyll-paginate]
 
@@ -60,7 +64,7 @@ kramdown:
   syntax_highlighter: true
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
@@ -68,7 +72,7 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://omajul85.github.io/'
+  siteurl: 'http://tigretoncio.github.io/'
   media: 'images'
   metadata:
     _posts:

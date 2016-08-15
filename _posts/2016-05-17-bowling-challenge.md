@@ -8,25 +8,19 @@ imagefeature: bowling.jpg
 comments: true
 ---
 
-A new programming language was introduced in the fifth week of the course. We started learning JavaScript, a language used by 92% of sites on the web. Together with JavaScript, the course introduced Jasmine as the testing framework and jQuery, a library designed to simplify the client-side scripting of HTML.
+This week I started learning JavaScript, the de-facto language of the web. It was done Makers style, testing first, and so the course introduced Jasmine as the testing framework and also jQuery, a library designed to simplify the client-side scripting of HTML.
 
-> The weekend challenge was count and sum the scores of a bowling game for one player in JavaScript, test the features with Jasmine and use jQuery to create a nice interactive animated interface.
+> The weekend challenge was to implement the calculation of bowling game in JavaScriptcount and sum the scores of a bowling game for one player in JavaScript.
 
-You can see my work on this GitHub <a href="https://github.com/omajul85/bowling-challenge" target="_blank">repo</a>. The application has been deployed on Heroku. You can share your peeps with the world <a href="https://bowling-omajul85.herokuapp.com/" target="_blank">here</a>.
+My code is available at <a href="https://github.com/tigretoncio/bowling-challenge" target="_blank">repo</a>.
 
 These are the **skills** that I acquired after this week:
 
-  - **Testing with Jasmine:** Write simple test for the JavaScript objects used on the application.
+  - <u>JavaScript</u>: With Ruby knowledge under my belt, it was easier to tackle JavaScript, although the language was more verbose in Syntax and had some conceptual differences such as not having classes, (just objects), or the use of prototypes instead of constructors.  However I was pretty quickly in a position of writing useful code in JS.
 
-  - **jQuery:** I wrote some functions using jQuery in order to animate the behaviour of the game and give it some dynamism. The buttons of the game, used for selecting the number of pins knocked down, change dynamically in order to avoid wrong input from user and also provide a simpler game experience (instead of typing the number of pins on a form for example).
+  - <u>Jasmine Testing</u>: One of the test frameworks for JavaScript
 
-  - **JavaScript:** Understand some similarities and differences of JavaScript in comparison with Ruby. How to create objects (not classes) in JavaScript, what is a constuctor, why use prototypes, etc.
+  - <u>JQuery</u>: A nice library to simplify the behaviour of webpages, such as defining behaviour when clicking on buttons, etc.
 
-  - **Google chrome DevTools:** Used to efficiently track down layout issues, test JavaScript code on the console, inspect the HTTP requests of my controllers and get insights for code optimization.
-
-  - **State machine model:** Although there are several ways to solve this challenge, I decided to base my solution on the Finite-state machine (FSM) modeling. A particular FSM is defined by a list of its states, and the triggering condition for each transition. The states represent different situations during a bowling game such as: rolling the first ball in a frame, rolling the second ball in a frame, scoring a strike, and so on. The states change from one to another by a triggering event or condition (aka transition), which in this case are the pins knocked down when rolling a ball and the possible bonus when scoring a spare or strike. 
-
-  The image below is a state diagram for a bowling game:
-
-  ![Diagram](http://s19.postimg.org/408xieodv/Graph.png)
+  - <u>Google chrome DevTools</u>: DevTools help to test code on the JS cosole, inspect HTTP requests or get insight for code optimisation.
 

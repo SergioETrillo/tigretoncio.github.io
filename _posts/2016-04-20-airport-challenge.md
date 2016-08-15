@@ -8,26 +8,23 @@ imagefeature: airport-challenge.jpg
 comments: true
 ---
 
-The first weekend challenge of my Ronin course at Makers Academy was intended to test several topics seen during the 4 weeks of PreCourse and the first week of course. 
+The first weekend challenge of my Ronin course at Makers Academy served to consolidate the previous 4 weeks of Pre-Course and the first week of the course.
 
-The main topics were:
+In particular, it tested the following concepts:
 
-  - Command line
-  - Ruby
-  - Object-Oriented Programming (OOP)
-  - Git and GitHub
-  - RSpec
-  - Test-Driven Development (TDD)
+  - <a href="https://en.wikipedia.org/wiki/Object-oriented_programming" target="_blank">_Object-Oriented Programming (OOP)_
+  - <a href="https://en.wikipedia.org/wiki/Test-driven_development" target="_blank">_Test-Driven Development (TDD)_
+  - <a href="http://www.martinfowler.com/articles/continuousIntegration.html" target="_blank">_Continuous Integration_
+  - <a href="https://en.wikipedia.org/wiki/Single_responsibility_principle" target="_blank">_Single responsibility Principle (SRP)_
+
+And the following technologies:
+
+  - <a href="https://www.ruby-lang.org/en/" target="_blank">_Ruby_
+  - <a href="https://git-scm.com/" target="_blank">_Git_ </a>_and_ <a href="https://github.com/tigretoncio" target="_blank">_GitHub_
+  - <a href="http://rspec.info/" target="_blank">_RSpec_
+  - <a href="https://travis-ci.org/" target="_blank">_Travis CI_
 
 
-The goal of the first weeks' workshops was understanding the benefits of TDD while building a simple application that controls the flow of planes at an airport. You can see my work <a href="https://github.com/omajul85/airport_challenge" target="_blank">here</a>. 
+The weekend challenge required to control flow of planes in an Airport, depending on a number of variables such as weather.  The instructions and my code are <a href="https://github.com/tigretoncio/airport_challenge" target="_blank">available here</a>.
 
-These are the **skills** that I acquired after this week:
-
-  - **Better pair-programming:** Instead of focussing only on progress and results, I changed my approach to concentrate on the learning objectives of the group. The first sessions were very exhausting because I tried to work as if I was alone. Each pair partner is a completely different world, and the rhythm and difficulty of each session must be adapted according to our strengths and weaknesses.
-  
-  - **Ruby:** Putting in practise some **SOLID** principles in my code, such as the *Single Responsability Principle*. The code I have done is **flexible**, which means that it is easy to change because each class is not dependent on other classes. I learnt the idea behind *Dependency Injection*, a software design pattern that implements inversion of control for resolving dependencies. 
-  
-  - **RSpec:** In just one week I have used a huge amount of RSpec matchers to test my applications. I feel more comfortable with my tests and the syntax.
-
-  - **External tools:** In addition to all the the topics listed above, I used *Travis CI*, *Hound* and *Coveralls* during the development cycle of this application. These tools will be used during the full course and I found them very useful to check if my code fulfills the business requirements in terms of test coverage and style.
+At this week the hard work done in the PreCourse working with bash and Ruby was starting to pay as it was easy to pick up fundamental concepts such as the presented above. **Great way to start!**

@@ -8,26 +8,27 @@ imagefeature: camera.jpg
 comments: true
 ---
 
-The seventh week of course introduced a new framework: Ruby on Rails. Ruby is a general-purpose programming language, though it is best known for its use in web programming. Rails is a ruby gem that extends the Ruby programming language. Rails combines Ruby with HTML, CSS and JavaScript to create web applications that run on a web server (that is why Rails is considered a server-side or backend framework).
+The seventh week of course introduced a new framework: <a href="http://rubyonrails.org/" target="_blank">Ruby on Rails</a>. Ruby is a general-purpose programming language, though it is best known for its use in web programming. Ruby on Rails is a web application framework created in Ruby that allows the creation of complex websites. Rails uses the model-view-controller (MVC) framework and provides default structures for a database, a web service and web pages.
 
-> The weekend challenge was building a simplified clone of instagram on Ruby on Rails where **users** can post **pictures**, write **comments** on pictures and **like** a picture. As a bonus, styling the website like the real instragram's site (or more awesome).
+> The weekend challenge was building a simplified clone of instagram on Ruby on Rails where users can post pictures, and write comments and like them.
 
-During the week we learned how Rails applications are organized using a pattern that other developers would recognize. Code is easier to write, understand and maintain if it fits a pattern you are familiar with. In this case, that pattern is again Model-View-Controller.
+This was an intense week to learn Ruby on Rails in a week.  However with the intense work previously done on Ruby and with a lot of motivation, it was possible to be done.
+
+There was quite a lot of new technology added here, apart from Ruby on Rails I needed something to manage the pictures, (Paperclip gem), and also a platform to store them, as Heroku is not design to store an important amount of data.  So I used <a href="https://aws.amazon.com/" target="_blank">Amazon Web Services</a>, profiting of their 1 year free offer, (I used their fantastic storage service AWS S3).  I also used devise to manage user authentication, Factory Girl to create objects for test, Simple Form gem to create easy forms, and a few other gems, bits and pieces.
+
+The code is <a href="https://github.com/tigretoncio/instagram-challenge" target="_blank">available here</a>, and the app is stored in Heroku <a href="https://pichagram.herokuapp.com/" target="_blank">here</a>
 
 The goals of this exercise were:
 
-  * Understand how Rails applications are organized. How to separate concerns and responsabilities applying correctly the MVC pattern. What are the actions of the controllers ?, how should I present the information to the user (*views*), what database tables do I need (*models*) ?...
+  * Practice in the use of Ruby on Rail applications, and the MVC framework
 
-  * Getting familiar with database migrations.
+  * Practice the database aspect using ActiveRecord which is the ORM used by Rails.
 
-  * Use correctly the Gemfile and separate the gems into groups according to the purpose of them (test, development, production).
+  * Practice the search and use of many different Gemfiles in an application, separating through groups depending on the software development live cycle, (development, test, production)
 
-  * Search the appropriate gems that help us solving the challenge. In this case, I used **Cloudinary**, which is an end-to-end image management solution for websites and mobile apps. My instagram clone uses Cloudinary for image uploads, storage and simple manipulations. Another gem used in this project is **acts_as_votable** which allows records (pictures) to be votable. Another important gem used for this project is **devise**, a flexible authentication solution for Rails.
+  * Experiment with presenting data. Although I did not have a lot of time to "make it beautiful" and it is in my to-do list.
 
-  * Experiment with styling frameworks. This app uses Bootstrap, a combination of HTML, CSS and JavaScript code designed to help build user interface components (Front-end-Framework).
+  * Ensure sensitive data does not appear in the code and publicly available on GitHub.
 
-  * How to prevent sensible data, like API keys and passwords from being published on GitHub using environment variables both locally and on Heroku.
+  * Continue the practice of Test-Driven Development to ensure good test coverage, which is a very important feature in applications that change often, (all successful ones).
 
-  * Use Test-Driven Development as a development cycle (red-green-refactor). Implement feature and unit test in order to test the app and find regressions.
-
-You can see my work on this GitHub <a href="https://github.com/omajul85/instagram-challenge" target="_blank">repo</a>. The application has been deployed on Heroku. You can share your images with the world <a href="https://instagram-omajul85.herokuapp.com/" target="_blank">here</a>.

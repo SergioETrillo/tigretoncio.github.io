@@ -8,18 +8,23 @@ imagefeature: chitter.jpg
 comments: true
 ---
 
-The challenge for the fourth week was building a simplified Twitter clone that will allow users to post messages (aka peeps) to a public stream. This challenge requires the implementation of user authentication process. 
+This week has exposed something very important to create a web application: Databases! Concepts of relational databases have been exposed and practiced, together with security considerations, (user authentication), and more feature testing using Capybara.
 
-Different technologies are used in this project:
+The weekend challenged involved to build a Twitter "clone" allowing users to send messages (_peeps_). Users must sign up with their email and usernames to write peeps, but they can read peeps without login.
 
-* **Sinatra (including usage of Partials and Flash):** Sinatra is a web application library that focuses on "quickly creating web-applications in Ruby with minimal effort".
 
-* **DataMapper:** An Object Relational Mapper (ORM) written in Ruby. In computer science, ORM is a programming technique for converting data between incompatible type systems in object-oriented programming languages. By using DataMapper our model objects gain the ability to communicate with the database and treat the table columns as Ruby attributes.
 
-* **Database cleaner:** Set of strategies for cleaning your database in Ruby. Database cleaner ensures a clean state during tests.
+The main new technologies used for this project are:
 
-* **Bcrypt:** This gem allows developers to easily harden the applications against attacks attempting to steal password information from users. It is our responsibility as a web developer to make our web applications secure.
+  * <u>DataMapper</u>: An Object Relational Mapper (ORM) written in Ruby.  It allows to use the database functions at developer level without the need of using SQL queries. By using DataMapper our model objects gain the ability to communicate with the database and treat the table columns as Ruby attributes.
 
-* **Rake:** Rake is *Ruby make*, a make-like language written in Ruby. Rake is used extensively, especially for the innumerable little administrative tasks necessary when developing database-backed web applications. In this case, the main tasks are upgrading or migrating our database.
+  * <u>BCrypt</u>: BCrypt is a Ruby Gem that allows to <a href="https://codahale.com/how-to-safely-store-a-password/" target="_blank">safely store a password.
 
-You can see my work on this GitHub <a href="https://github.com/omajul85/chitter-challenge" target="_blank">repo</a>. The application has been deployed on Heroku. You can share your peeps with the world <a href="https://chitter-omajul85.herokuapp.com/" target="_blank">here</a>.
+  * <u>PostgreSQL</u>: PostgreSQL is a very popular open source object-relational database.
+
+  * <u>Rake</u>: Rake is Ruby make, a make-like language written in Ruby, to deal with tasks and dependencies.
+
+  * <u>Heroku</u>: <a href="https://www.heroku.com/" target="_blank">Heroku</a> is a great cloud platform as a service that allows people to build and deliver apps.
+
+
+You can see my work on this GitHub <a href="https://github.com/tigretoncio/chitter-challenge" target="_blank">repo</a>. The application has been deployed on Heroku. You can share your peeps with the world <a href="https://cheeter-challenge-sergio.herokuapp.com" target="_blank">here</a>.
