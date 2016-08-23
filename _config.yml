@@ -17,7 +17,7 @@ port:           8080
 owner:
   name:           Sergio Enrech Trillo
   avatar:         author.jpg
-  description:    I recently received the call of code, and I have refocused my career to fulfill my passion.  Looking for exciting opportunities where I can continue to learn and grow as a developer.
+  description:    I recently received the call of code, and I have refocused my career to fulfil my passion.  Looking for exciting opportunities where I can continue to learn and grow as a developer.
 
 # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
 description:    Available for Hire
